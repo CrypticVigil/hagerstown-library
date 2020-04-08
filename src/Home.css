@@ -1,0 +1,10 @@
+.Home {
+	display: flex;
+	justify-content: center;
+	background-color: aliceblue;
+}
+
+.home-container {
+	width: 960px;
+	background-color: white;
+}
