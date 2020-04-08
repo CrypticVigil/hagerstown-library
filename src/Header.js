@@ -10,7 +10,7 @@ function Header() {
 				<div className="header-navbar" >
 					<Link to="/">Home</Link>
 					<Link to="/catalog">Catalog</Link>
-					<Link to="/genres">Genres</Link>
+					<Link to="/events">Events</Link>
 					<Link to="/about">About</Link>
 				</div>
 			</div>

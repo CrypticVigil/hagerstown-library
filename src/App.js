@@ -6,6 +6,9 @@ import {
 } from 'react-router-dom';
 import Header from './Header';
 import Home from './Home';
+import Catalog from './Catalog';
+import Events from './Events';
+import About from './About';
 import Footer from './Footer';
 import './App.css';
 
@@ -16,13 +19,13 @@ function App() {
         <Header />
         <Switch>
           <Route path="/catalog">
-            <h1>Catalog</h1>
+            <Catalog />
           </Route>
-          <Route path="/genres">
-            <h1>Genres</h1>
+          <Route path="/events">
+            <Events />
           </Route>
           <Route path="/about">
-            <h1>About</h1>
+            <About />
           </Route>
           <Route path="/">
             <Home />

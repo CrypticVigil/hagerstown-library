@@ -11,7 +11,7 @@ function Footer() {
 					<ul>
 						<li><Link to="/">Home</Link></li>
 						<li><Link to="/catalog">Catalog</Link></li>
-						<li><Link to="/genres">Genres</Link></li>
+						<li><Link to="/events">Events</Link></li>
 						<li><Link to="/about">About</Link></li>
 					</ul>
 					<ul>

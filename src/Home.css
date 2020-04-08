@@ -42,6 +42,10 @@
 	border: 4px solid var(--gold);
 }
 
+.home-jumbotron__message:hover h2 {
+	text-decoration: 2.5px solid underline;
+}
+
 .home-jumbotron__message h2 {
 	margin: 0 0 1rem 0;
 	color: var(--steel-blue);

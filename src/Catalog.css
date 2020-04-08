@@ -1,0 +1,6 @@
+.Catalog {
+	display: flex;
+	justify-content: center;
+	background-color: #dee8ed;
+	flex-grow: 1;
+}

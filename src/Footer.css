@@ -16,11 +16,12 @@
 .footer-container a {
 	color: white;
 	text-decoration: none;
-	transition: 0.3s;
+	transition: 0.2s;
 }
 
 .footer-container a:hover {
 	color: var(--gold);
+	text-decoration: 2px solid underline;
 }
 
 .footer-left {
@@ -35,7 +36,7 @@
 }
 
 .footer-left li {
-	line-height: 1.75rem;
+	line-height: 1.55rem;
 	color: white;
 }
 
@@ -51,6 +52,12 @@
 
 .footer-right img {
 	width: 2rem;
+	transition: 0.2s;
+}
+
+.footer-right img:hover {
+	filter: drop-shadow(2px 2px 2px rgba(0, 0, 0, 0.5));
+	transform: translateY(-2px);
 }
 
 .footer-bar {
