@@ -16,25 +16,32 @@
 .footer-container a {
 	color: white;
 	text-decoration: none;
+	transition: 0.3s;
+}
+
+.footer-container a:hover {
+	color: var(--gold);
 }
 
 .footer-left {
 	display: flex;
+	font-size: 0.875rem;
 }
 
 .footer-left ul {
-	margin: 0;
+	margin: 0 0 0 2.5rem;
 	padding: 0;
 	list-style-type: none;
 }
 
 .footer-left li {
 	line-height: 1.75rem;
+	color: white;
 }
 
 .footer-logo {
-	width: 200px;
-	margin: 0.5rem 2.5rem 0 0;
+	width: 12rem;
+	margin-top: 0.5rem;
 	align-self: flex-start;
 }
 

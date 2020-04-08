@@ -14,6 +14,11 @@ function Footer() {
 						<li><Link to="/genres">Genres</Link></li>
 						<li><Link to="/about">About</Link></li>
 					</ul>
+					<ul>
+						<li>1234 Bookworm Street</li>
+						<li>Hagerstown, MD 21740</li>
+						<li>(240) 321-7654</li>
+					</ul>
 				</div>
 				<div className="footer-right">
 					<a href="https://twitter.com"><img src="./img/facebook-logo.svg" alt="facebook logo" /></a>
@@ -22,7 +27,7 @@ function Footer() {
 					<a href="https://www.youtube.com/"><img src="./img/youtube-logo.svg" alt="youtube logo" /></a>
 				</div>
 			</div>
-			<div className="footer-bar"><p>Copyright 2020&nbsp;&nbsp;//&nbsp;&nbsp;Created by Chad Barrows</p></div>
+			<div className="footer-bar"><p>&copy; 2020 Chad Barrows&nbsp;&nbsp;//&nbsp;&nbsp;Created with React & Redux</p></div>
 		</div>
 	);
 }
