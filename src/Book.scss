@@ -1,0 +1,36 @@
+.Book {
+	width: 15%;
+	position: relative;
+	img {
+		width: 100%;
+	}
+	&:hover .book-overlay {
+		display: flex;
+	}
+}
+
+.book-overlay {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	background-color: rgba(255, 255, 255, 0.8);
+	top: 0;
+	padding: 0.5rem;
+	display: none;
+	align-content: center;
+	flex-wrap: wrap;
+	text-align: center;
+	text-decoration: none;
+	color: var(--steel-blue);
+	h4 {
+		margin: 0;
+		font-size: 1rem;
+		width: 100%;
+	}
+	h5 {
+		font-weight: normal;
+		margin: 0.25rem 0 0 0;
+		font-size: 1rem;
+		width: 100%;
+	}
+}

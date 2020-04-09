@@ -1,4 +1,5 @@
 import React from 'react';
+import Carousel from './Carousel';
 import './Home.scss';
 
 function Home() {
@@ -11,11 +12,11 @@ function Home() {
 						<p>Starting in May, your child can earn fun rewards through our summer reading program. Find out more and sign up today!</p>
 						<img src="./img/arrow-right.svg" alt="" />
 					</a>
-					<img class="home-jumbotron__main-image" src="./img/robyn-budlender-3jRGSA2IH0c-unsplash.jpg" alt="a row of children's books" />
+					<img className="home-jumbotron__main-image" src="./img/robyn-budlender-3jRGSA2IH0c-unsplash.jpg" alt="a row of children's books" />
 					<a className="home-jumbotron__caption" href="https://unsplash.com/@robzy_m">Image from Robyn Budlender</a>
 				</div>
-				<h2>New Arrivals</h2>
-				<h2>Staff Recommendations</h2>
+				<Carousel title="New Arrivals" />
+				<Carousel title="Staff Recommendations" />
 			</div>
 		</div>
 	);
