@@ -15,6 +15,7 @@ function Home() {
 					<a className="home-jumbotron__caption" href="https://unsplash.com/@robzy_m">Image from Robyn Budlender</a>
 				</div>
 				<h2>New Arrivals</h2>
+				<h2>Staff Recommendations</h2>
 			</div>
 		</div>
 	);
