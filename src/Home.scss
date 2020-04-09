@@ -36,30 +36,25 @@
 	transition: 0.3s;
 	text-decoration: none;
 	color: var(--dark-steel);
-}
-
-.home-jumbotron__message:hover {
-	border: 4px solid var(--gold);
-}
-
-.home-jumbotron__message:hover h2 {
-	text-decoration: 2.5px solid underline;
-}
-
-.home-jumbotron__message h2 {
-	margin: 0 0 1rem 0;
-	color: var(--steel-blue);
-	border-bottom: 4px solid var(--gold);
-	padding-bottom: 0.5rem;
-}
-
-.home-jumbotron__message p {
-	width: 400px;
-}
-
-.home-jumbotron__message img {
-	width: 1.5rem;
-	float: right;
+	&:hover {
+		border: 4px solid var(--gold);
+	}
+	&:hover h2 {
+		text-decoration: 2.5px solid underline;
+	}
+	h2 {
+		margin: 0 0 1rem 0;
+		color: var(--steel-blue);
+		border-bottom: 4px solid var(--gold);
+		padding-bottom: 0.5rem;
+	}
+	p {
+		width: 400px;
+	}
+	img {
+		width: 1.5rem;
+		float: right;
+	}
 }
 
 .home-jumbotron__caption {

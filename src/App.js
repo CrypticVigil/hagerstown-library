@@ -10,7 +10,7 @@ import Catalog from './Catalog';
 import Events from './Events';
 import About from './About';
 import Footer from './Footer';
-import './App.css';
+import './App.scss';
 
 function App() {
   return (

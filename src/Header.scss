@@ -18,19 +18,17 @@
 .header-navbar {
 	display: flex;
 	align-items: flex-end;
-}
-
-.header-navbar a {
-	height: 1.75rem;
-	margin: 0 0 0.375rem 1.5rem;
-	font-weight: bold;
-	color: var(--steel-blue);
-	text-decoration: none;
-	transition: 0.3s;
-	border-bottom: 3px solid white;
-}
-
-.header-navbar a:hover {
-	color: var(--dark-steel);
-	border-bottom: 3px solid var(--gold);
+	a {
+		height: 1.75rem;
+		margin: 0 0 0.375rem 1.5rem;
+		font-weight: bold;
+		color: var(--steel-blue);
+		text-decoration: none;
+		transition: 0.3s;
+		border-bottom: 3px solid white;
+		&:hover {
+			color: var(--dark-steel);
+			border-bottom: 3px solid var(--gold);
+		}
+	}
 }

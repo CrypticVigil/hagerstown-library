@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './Catalog.css';
+import './Catalog.scss';
 
 class Catalog extends Component {
 	render() {

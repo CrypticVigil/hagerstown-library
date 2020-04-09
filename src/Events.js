@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './Events.css';
+import './Events.scss';
 
 class Events extends Component {
 	render() {
