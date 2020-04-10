@@ -67,16 +67,6 @@ class Carousel extends Component {
 	}
 
 	createSlides() {
-		// const list = [];
-		// let count = 0;
-		// for (let item of this.props.books) {
-		// 	console.log(item);
-		// 	if (count < 6) {
-		// 		list.push(<Book cover={`./img/covers/${item.cover}`} title={item.title} author={item.author} key={count} />);
-		// 		count++;
-		// 	}
-		// }
-		// return list;
 		const slides = Math.ceil(this.filtered.length / 6);
 		const list = [];
 		for (let i = 0; i < slides; i++) {

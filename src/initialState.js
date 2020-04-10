@@ -664,21 +664,40 @@ const initialState = {
 	lists: {
 		"NewArrivals": {
 			title: "New Arrivals",
-			books: ["028", "029", "030", "031", "032", "033", "060"]
+			books: ["031", "032", "033", "034", "035", "036", "037", "038", "039", "040", "041", "042", "045"]
 		},
 		"StaffPicks": {
 			title: "Staff Picks",
-			books: ["031", "032", "033", "034", "035", "036", "037", "038", "039", "040", "041", "042", "045"]
+			books: ["005", "007", "008", "010", "014", "030"]
 		},
 		"FantasySci": {
-			title: "Fantasy / Sci Fi",
-			books: ["029", "038"]
+			title: "Fantasy / Sci-Fi",
+			books: ["029", "038", "002", "003", "006", "027", "028", "043", "044", "046", "047", "048", "049", "050"]
 		},
 		"Classics": {
 			title: "Beloved Classics",
-			books: ["029", "038"]
+			books: ["001", "004", "009", "011", "012", "013", "015", "016", "017", "018", "019", "020", "021", "022", "023", "024", "025", "026"]
 		},
-	}
+	},
+	resources: [
+		{
+			title: "Access Our Digital Library",
+			img: "DigitalLibrary.jpg"
+		},
+		{
+			title: "Homework Assistance",
+			img: "HomeworkAssistance.jpg"
+		},
+		{
+			title: "Career & Employment",
+			img: "CareerEmployment.jpg"
+		},
+		{
+			title: "Computer Training",
+			img: "ComputerTraining.jpg"
+		},
+	],
+	events: [],
 }
 
 export default initialState;
