@@ -1,8 +1,10 @@
 .Book {
-	width: 15%;
+	width: 120px;
 	position: relative;
+	display: flex;
 	img {
 		width: 100%;
+		bottom: 0;
 	}
 	&:hover .book-overlay {
 		display: flex;
@@ -22,6 +24,7 @@
 	text-align: center;
 	text-decoration: none;
 	color: var(--steel-blue);
+	border: 1px solid silver;
 	h4 {
 		margin: 0;
 		font-size: 1rem;

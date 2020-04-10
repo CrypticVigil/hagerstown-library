@@ -100,6 +100,26 @@ const initialState = {
 			pages: "275",
 			available: "DUE 05-07-20"
 		},
+		{
+			title: "Anne of Green Gables",
+			author: "Montgomery, L. M.",
+			publisher: "Puffin, 2008",
+			type: "Book",
+			summary: "Anne, an eleven-year-old orphan, is sent by mistake to live with a lonely, middle-aged brother and sister on a Prince Edward Island farm and proceeds to make an indelible impression on everyone around her.",
+			cover: "AnneOfGreenGables.jpg",
+			pages: "426",
+			available: "AVAILABLE"
+		},
+		{
+			title: "Pride and Prejudice",
+			author: "Austen, Jane",
+			publisher: "Oxford University Press, 2008",
+			type: "Book",
+			summary: "With the arrival of eligible young men in their neighborhood, the lives of Mr. and Mrs. Bennet and their five daughters are turned inside out and upside down. Pride encounters prejudice, upward-mobility confronts social disdain, and quick-wittedness challenges sagacity, as misconceptions and hasty judgements lead to heartache and scandal, but eventually to true understanding, self-knowledge, and love.",
+			cover: "PrideAndPrejudice.jpg",
+			pages: "333",
+			available: "DUE 05-02-20"
+		},
 	]
 }
 
