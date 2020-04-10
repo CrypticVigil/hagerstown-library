@@ -8,7 +8,8 @@ const initialState = {
 			summary: "A gripping, heart-wrenching, and wholly remarkable tale of coming-of-age in a South poisoned by virulent prejudice, it views a world of great beauty and savage inequities through the eyes of a young girl, Scout, as her father, Atticus Finch -- a crusading local lawyer -- risks everything to defend a black man unjustly accused of a terrible crime.",
 			cover: "ToKillAMockingbird.jpg",
 			pages: "323",
-			available: "AVAILABLE"
+			available: "AVAILABLE",
+			id: "001"
 		},
 		{
 			title: "1984 : a novel",
@@ -18,7 +19,8 @@ const initialState = {
 			summary: "Written in 1948, 1984 was George Orwell's chilling prophecy about the future. And while 1984 has come and gone, his dystopian vision of a government that will do anything to control the narrative is timelier than ever...",
 			cover: "1984.jpg",
 			pages: "294",
-			available: "AVAILABLE"
+			available: "AVAILABLE",
+			id: "002"
 		},
 		{
 			title: "The Lord of the Rings",
@@ -28,7 +30,8 @@ const initialState = {
 			summary: "Presents the Great War of the Ring, a struggle between good and evil in Middle-earth, following the odyssey of Frodo the hobbit and his companions on a quest to destory the Ring of Power.",
 			cover: "TheLordOfTheRings.jpg",
 			pages: "1178",
-			available: "DUE 05-09-20"
+			available: "DUE 05-09-20",
+			id: "003"
 		},
 		{
 			title: "The Catcher in the Rye",
@@ -38,7 +41,8 @@ const initialState = {
 			summary: "Story of Holden Caufield with his idiosyncrasies, penetrating insight, confusion, sensitivity and negativism. Holden, knowing he is to be expelled from school, decides to leave early. He spends three days in New York City and tells the story of what he did and suffered there.",
 			cover: "TheCatcherInTheRye.jpg",
 			pages: "214",
-			available: "AVAILABLE"
+			available: "AVAILABLE",
+			id: "004"
 		},
 		{
 			title: "The Great Gatsby",
@@ -48,7 +52,8 @@ const initialState = {
 			summary: "Jay Gatsby had once loved beautiful, spoiled Daisy Buchanan, then lost her to a rich boy. Now, mysteriously wealthy, he is ready to risk everything to woo her back. This is the definitive, textually accurate edition of a classic of twentieth-century literature, The Great Gatsby.",
 			cover: "TheGreatGatsby.jpg",
 			pages: "180",
-			available: "DUE 04-29-20"
+			available: "DUE 04-29-20",
+			id: "005"
 		},
 		{
 			title: "The Lion, the Witch, and the Wardrobe",
@@ -58,7 +63,8 @@ const initialState = {
 			summary: "Four English school children find their way through the back of a wardrobe into the magic land of Narnia and assist Aslan, the golden lion, to triumph over the White Witch who has cursed the land with eternal winter.",
 			cover: "TheLionTheWitchAndTheWardrobe.jpg",
 			pages: "172",
-			available: "AVAILABLE"
+			available: "AVAILABLE",
+			id: "006"
 		},
 		{
 			title: "Lord of the Flies",
@@ -68,7 +74,8 @@ const initialState = {
 			summary: "Golding's aim to \"trace the defect of society back to the defect of human nature\" is elegantly pursued in this gripping adventure tale about a group of British schoolboys marooned on a tropical island. Alone in a world of uncharted possibilities, devoid of adult supervision or rules, the boys attempt to forge their own society, failing, however, in the face of terror, sin, and evil.",
 			cover: "LordOfTheFlies.jpg",
 			pages: "182",
-			available: "DUE 05-01-20"
+			available: "DUE 05-01-20",
+			id: "007"
 		},
 		{
 			title: "Catch-22",
@@ -78,7 +85,8 @@ const initialState = {
 			summary: "Set in the closing months of World War II in an American bomber squadron off the coast of Italy, Catch-22 is the story of a bombardier named Yossarian who is frantic and furious because thousands of people he has never even met keep trying to kill him.",
 			cover: "Catch22.jpg",
 			pages: "523",
-			available: "AVAILABLE"
+			available: "AVAILABLE",
+			id: "008"
 		},
 		{
 			title: "The Grapes of Wrath",
@@ -88,7 +96,8 @@ const initialState = {
 			summary: "Depicts the hardships and suffering endured by the Joads as they journey from Oklahoma to California during the Depression.",
 			cover: "TheGrapesOfWrath.jpg",
 			pages: "464",
-			available: "AVAILABLE"
+			available: "AVAILABLE",
+			id: "009"
 		},
 		{
 			title: "Slaughterhouse-Five",
@@ -98,7 +107,8 @@ const initialState = {
 			summary: "Billy Pilgrim returns home from the Second World War only to be kidnapped by aliens from the planet Tralfamadore, who teach him that time is an eternal present.",
 			cover: "SlaughterhouseFive.jpg",
 			pages: "275",
-			available: "DUE 05-07-20"
+			available: "DUE 05-07-20",
+			id: "010"
 		},
 		{
 			title: "Anne of Green Gables",
@@ -108,7 +118,8 @@ const initialState = {
 			summary: "Anne, an eleven-year-old orphan, is sent by mistake to live with a lonely, middle-aged brother and sister on a Prince Edward Island farm and proceeds to make an indelible impression on everyone around her.",
 			cover: "AnneOfGreenGables.jpg",
 			pages: "426",
-			available: "AVAILABLE"
+			available: "AVAILABLE",
+			id: "011"
 		},
 		{
 			title: "Pride and Prejudice",
@@ -118,9 +129,552 @@ const initialState = {
 			summary: "With the arrival of eligible young men in their neighborhood, the lives of Mr. and Mrs. Bennet and their five daughters are turned inside out and upside down. Pride encounters prejudice, upward-mobility confronts social disdain, and quick-wittedness challenges sagacity, as misconceptions and hasty judgements lead to heartache and scandal, but eventually to true understanding, self-knowledge, and love.",
 			cover: "PrideAndPrejudice.jpg",
 			pages: "333",
-			available: "DUE 05-02-20"
+			available: "DUE 05-02-20",
+			id: "012"
 		},
-	]
+		{
+			title: "The Adventures of Huckleberry Finn",
+			author: "Twain, Mark",
+			publisher: "Puffin, 2008",
+			type: "Book",
+			summary: "Eager to flee his drunken father and his confining life with Widow Douglas and Miss Watson, Huckleberry Finn sets off on a raft down the Mississippi river with his friend Tom Sawyer and a runaway slave, Jim, in tow. Highlights of their floating journey towards freedom include an encounter with a pair of comical swindlers.",
+			cover: "TheAdventuresOfHuckleberryFinn.jpg",
+			pages: "450",
+			available: "AVAILABLE",
+			id: "013"
+		},
+		{
+			title: "The Sound and the Fury",
+			author: "Faulkner, William",
+			publisher: "Vintage Books, 1990",
+			type: "Book",
+			summary: "Retells the tragic times of the Compson family, including beautiful, rebellious Caddy; manchild Benjy; haunted, neurotic Quentin; Jason, the brutal cynic; and Dilsey, their Black servant.",
+			cover: "TheSoundAndTheFury.jpg",
+			pages: "326",
+			available: "AVAILABLE",
+			id: "014"
+		},
+		{
+			title: "War and Peace",
+			author: "Tolstoy, Leo",
+			publisher: "Signet Classic, 2007",
+			type: "Book",
+			summary: "War and Peace broadly focuses on Napoleon's invasion of Russia in 1812 and follows three of the most well-known characters in literature: Pierre Bezukhov, the illegitimate son of a count who is fighting for his inheritance and yearning for spiritual fulfillment; Prince Andrei Bolkonsky, who leaves his family behind to fight in the war against Napoleon; and Natasha Rostov, the beautiful young daughter of a nobleman who intrigues both men.",
+			cover: "WarAndPeace.jpg",
+			pages: "1455",
+			available: "AVAILABLE",
+			id: "015"
+		},
+		{
+			title: "Jane Eyre",
+			author: "Bronte, Charlotte",
+			publisher: "New American Library, 2008",
+			type: "Book",
+			summary: "An orphan girl who accepts employment as a governess finds herself involved in a family secret and in love with her employer.",
+			cover: "JaneEyre.jpg",
+			pages: "470",
+			available: "DUE 05-03-20",
+			id: "016"
+		},
+		{
+			title: "Les Miserables",
+			author: "Hugo, Victor",
+			publisher: "",
+			type: "Book",
+			summary: "",
+			cover: ".jpg",
+			pages: "",
+			available: "AVAILABLE",
+			id: "017"
+		},
+		{
+			title: "For Whom the Bell Tolls",
+			author: "Hemingway, Ernest",
+			publisher: "",
+			type: "Book",
+			summary: "",
+			cover: ".jpg",
+			pages: "",
+			available: "AVAILABLE",
+			id: "018"
+		},
+		{
+			title: "Frankenstein",
+			author: "Shelley, Mary",
+			publisher: "",
+			type: "Book",
+			summary: "",
+			cover: ".jpg",
+			pages: "",
+			available: "DUE 04-30-20",
+			id: "019"
+		},
+		{
+			title: "Great Expectations",
+			author: "Dickens, Charles",
+			publisher: "",
+			type: "Book",
+			summary: "",
+			cover: ".jpg",
+			pages: "",
+			available: "AVAILABLE",
+			id: "020"
+		},
+		{
+			title: "Little Women",
+			author: "Alcott, Louisa May",
+			publisher: "",
+			type: "Book",
+			summary: "",
+			cover: ".jpg",
+			pages: "",
+			available: "AVAILABLE",
+			id: "021"
+		},
+		{
+			title: "Treasure Island",
+			author: "Stevenson, Robert Louis",
+			publisher: "",
+			type: "Book",
+			summary: "",
+			cover: ".jpg",
+			pages: "",
+			available: "AVAILABLE",
+			id: "022"
+		},
+		{
+			title: "The Count of Monte Cristo",
+			author: "Dumas, Alexandre",
+			publisher: "",
+			type: "Book",
+			summary: "",
+			cover: ".jpg",
+			pages: "",
+			available: "AVAILABLE",
+			id: "023"
+		},
+		{
+			title: "Dracula",
+			author: "Stoker, Bram",
+			publisher: "",
+			type: "Book",
+			summary: "",
+			cover: ".jpg",
+			pages: "",
+			available: "AVAILABLE",
+			id: "024"
+		},
+		{
+			title: "The Hound of the Baskervilles",
+			author: "Doyle, Arthur Conan",
+			publisher: "",
+			type: "Book",
+			summary: "",
+			cover: ".jpg",
+			pages: "",
+			available: "AVAILABLE",
+			id: "025"
+		},
+		{
+			title: "Twenty Thousand Leagues Under the Sea",
+			author: "Verne, Jules",
+			publisher: "",
+			type: "Book",
+			summary: "",
+			cover: ".jpg",
+			pages: "",
+			available: "AVAILABLE",
+			id: "026"
+		},
+		{
+			title: "Fahrenheit 451",
+			author: "Bradbury, Ray",
+			publisher: "",
+			type: "Book",
+			summary: "",
+			cover: ".jpg",
+			pages: "",
+			available: "AVAILABLE",
+			id: "027"
+		},
+		{
+			title: "The Hitchhiker's Guide to the Galaxy",
+			author: "Adams, Douglas",
+			publisher: "",
+			type: "Book",
+			summary: "",
+			cover: ".jpg",
+			pages: "",
+			available: "AVAILABLE",
+			id: "028"
+		},
+		{
+			title: "Dune",
+			author: "Herbert, Frank",
+			publisher: "",
+			type: "Book",
+			summary: "",
+			cover: ".jpg",
+			pages: "",
+			available: "AVAILABLE",
+			id: "029"
+		},
+		{
+			title: "The Killer Angels",
+			author: "Shaara, Michael",
+			publisher: "",
+			type: "Book",
+			summary: "",
+			cover: ".jpg",
+			pages: "",
+			available: "AVAILABLE",
+			id: "030"
+		},
+		{
+			title: "Little Fires Everywhere",
+			author: "Ng, Celeste",
+			publisher: "",
+			type: "Book",
+			summary: "",
+			cover: ".jpg",
+			pages: "",
+			available: "AVAILABLE",
+			id: "031"
+		},
+		{
+			title: "Where the Crawdads Sing",
+			author: "Owens, Delia",
+			publisher: "",
+			type: "Book",
+			summary: "",
+			cover: ".jpg",
+			pages: "",
+			available: "AVAILABLE",
+			id: "032"
+		},
+		{
+			title: "Educated",
+			author: "Westover, Tara",
+			publisher: "",
+			type: "Book",
+			summary: "",
+			cover: ".jpg",
+			pages: "",
+			available: "AVAILABLE",
+			id: "033"
+		},
+		{
+			title: "Maybe You Should Talk to Someone",
+			author: "Gottlieb, Lori",
+			publisher: "",
+			type: "Book",
+			summary: "",
+			cover: ".jpg",
+			pages: "",
+			available: "AVAILABLE",
+			id: "034"
+		},
+		{
+			title: "Atomic Habits",
+			author: "Clear, James",
+			publisher: "",
+			type: "Book",
+			summary: "",
+			cover: ".jpg",
+			pages: "",
+			available: "AVAILABLE",
+			id: "035"
+		},
+		{
+			title: "Daring Greatly",
+			author: "Brown, Brene",
+			publisher: "",
+			type: "Book",
+			summary: "",
+			cover: ".jpg",
+			pages: "",
+			available: "AVAILABLE",
+			id: "036"
+		},
+		{
+			title: "Just Mercy",
+			author: "Stevenson, Bryan",
+			publisher: "",
+			type: "Book",
+			summary: "",
+			cover: ".jpg",
+			pages: "",
+			available: "AVAILABLE",
+			id: "037"
+		},
+		{
+			title: "The Last Wish",
+			author: "Sapkowski, Andrzej",
+			publisher: "",
+			type: "Book",
+			summary: "",
+			cover: ".jpg",
+			pages: "",
+			available: "AVAILABLE",
+			id: "038"
+		},
+		{
+			title: "Eleanor Oliphant is Completely Fine",
+			author: "Honeyman, Gail",
+			publisher: "",
+			type: "Book",
+			summary: "",
+			cover: ".jpg",
+			pages: "",
+			available: "AVAILABLE",
+			id: "039"
+		},
+		{
+			title: "A Gentleman in Moscow",
+			author: "Towles, Amor",
+			publisher: "",
+			type: "Book",
+			summary: "",
+			cover: ".jpg",
+			pages: "",
+			available: "AVAILABLE",
+			id: "040"
+		},
+		{
+			title: "All the Light We Cannot See",
+			author: "Doerr, Anthony",
+			publisher: "",
+			type: "Book",
+			summary: "",
+			cover: ".jpg",
+			pages: "",
+			available: "AVAILABLE",
+			id: "041"
+		},
+		{
+			title: "Thinking, Fast and Slow",
+			author: "Kahneman, Daniel",
+			publisher: "",
+			type: "Book",
+			summary: "",
+			cover: ".jpg",
+			pages: "",
+			available: "AVAILABLE",
+			id: "042"
+		},
+		{
+			title: "The Way of Kings",
+			author: "Sanderson, Brandon",
+			publisher: "",
+			type: "Book",
+			summary: "",
+			cover: "TheWayOfKings.jpg",
+			pages: "",
+			available: "DUE 05-08-20",
+			id: "043"
+		},
+		{
+			title: "Mistborn",
+			author: "Sanderson, Brandon",
+			publisher: "",
+			type: "Book",
+			summary: "",
+			cover: ".jpg",
+			pages: "",
+			available: "AVAILABLE",
+			id: "044"
+		},
+		{
+			title: "Digital Minimalism",
+			author: "Newport, Cal",
+			publisher: "",
+			type: "Book",
+			summary: "",
+			cover: ".jpg",
+			pages: "",
+			available: "DUE 05-08-20",
+			id: "045"
+		},
+		{
+			title: "The Lies of Locke Lamora",
+			author: "Lynch, Scott",
+			publisher: "",
+			type: "Book",
+			summary: "",
+			cover: ".jpg",
+			pages: "",
+			available: "AVAILABLE",
+			id: "046"
+		},
+		{
+			title: "Memories of Ice",
+			author: "Erikson, Steven",
+			publisher: "",
+			type: "Book",
+			summary: "",
+			cover: ".jpg",
+			pages: "",
+			available: "DUE 05-01-20",
+			id: "047"
+		},
+		{
+			title: "The Eye of the World",
+			author: "Jordan, Robert",
+			publisher: "",
+			type: "Book",
+			summary: "",
+			cover: ".jpg",
+			pages: "",
+			available: "AVAILABLE",
+			id: "048"
+		},
+		{
+			title: "A Game of Thrones",
+			author: "Martin, George R. R.",
+			publisher: "",
+			type: "Book",
+			summary: "",
+			cover: ".jpg",
+			pages: "",
+			available: "AVAILABLE",
+			id: "049"
+		},
+		{
+			title: "Ender's Game",
+			author: "Card, Orson Scott",
+			publisher: "",
+			type: "Book",
+			summary: "",
+			cover: ".jpg",
+			pages: "",
+			available: "AVAILABLE",
+			id: "050"
+		},
+		{
+			title: "",
+			author: "",
+			publisher: "",
+			type: "Book",
+			summary: "",
+			cover: ".jpg",
+			pages: "",
+			available: "AVAILABLE",
+			id: "051"
+		},
+		{
+			title: "",
+			author: "",
+			publisher: "",
+			type: "Book",
+			summary: "",
+			cover: ".jpg",
+			pages: "",
+			available: "AVAILABLE",
+			id: "052"
+		},
+		{
+			title: "",
+			author: "",
+			publisher: "",
+			type: "Book",
+			summary: "",
+			cover: ".jpg",
+			pages: "",
+			available: "AVAILABLE",
+			id: "053"
+		},
+		{
+			title: "",
+			author: "",
+			publisher: "",
+			type: "Book",
+			summary: "",
+			cover: ".jpg",
+			pages: "",
+			available: "AVAILABLE",
+			id: "054"
+		},
+		{
+			title: "",
+			author: "",
+			publisher: "",
+			type: "Book",
+			summary: "",
+			cover: ".jpg",
+			pages: "",
+			available: "AVAILABLE",
+			id: "055"
+		},
+		{
+			title: "",
+			author: "",
+			publisher: "",
+			type: "Book",
+			summary: "",
+			cover: ".jpg",
+			pages: "",
+			available: "AVAILABLE",
+			id: "056"
+		},
+		{
+			title: "",
+			author: "",
+			publisher: "",
+			type: "Book",
+			summary: "",
+			cover: ".jpg",
+			pages: "",
+			available: "AVAILABLE",
+			id: "057"
+		},
+		{
+			title: "",
+			author: "",
+			publisher: "",
+			type: "Book",
+			summary: "",
+			cover: ".jpg",
+			pages: "",
+			available: "AVAILABLE",
+			id: "058"
+		},
+		{
+			title: "",
+			author: "",
+			publisher: "",
+			type: "Book",
+			summary: "",
+			cover: ".jpg",
+			pages: "",
+			available: "AVAILABLE",
+			id: "059"
+		},
+		{
+			title: "",
+			author: "",
+			publisher: "",
+			type: "Book",
+			summary: "",
+			cover: ".jpg",
+			pages: "",
+			available: "AVAILABLE",
+			id: "060"
+		},
+	],
+	lists: {
+		"NewArrivals": {
+			title: "New Arrivals",
+			books: ["031", "032", "033", "034", "035", "036", "037", "038", "039", "040", "041", "042", "045"]
+		},
+		"StaffPicks": {
+			title: "Staff Picks",
+			books: []
+		},
+		"FantasySci": {
+			title: "Fantasy / Sci Fi",
+			books: ["029", "038"]
+		}
+	}
 }
 
 export default initialState;

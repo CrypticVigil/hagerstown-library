@@ -15,8 +15,8 @@ function Home() {
 					<img className="home-jumbotron__main-image" src="./img/robyn-budlender-3jRGSA2IH0c-unsplash.jpg" alt="a row of children's books" />
 					<a className="home-jumbotron__caption" href="https://unsplash.com/@robzy_m">Image from Robyn Budlender</a>
 				</div>
-				<Carousel title="New Arrivals" id="01" />
-				<Carousel title="Staff Recommendations" id="02" />
+				<Carousel list="NewArrivals" id="01" />
+				{/* <Carousel list="StaffPicks" id="02" /> */}
 			</div>
 		</div>
 	);

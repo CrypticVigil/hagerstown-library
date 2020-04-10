@@ -2,12 +2,16 @@
 	width: 120px;
 	position: relative;
 	display: flex;
+	margin-right: 22.4px;
 	img {
 		width: 100%;
 		bottom: 0;
 	}
 	&:hover .book-overlay {
 		display: flex;
+	}
+	&:last-child {
+		margin-right: 0;
 	}
 }
 
