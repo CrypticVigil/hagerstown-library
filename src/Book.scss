@@ -1,5 +1,7 @@
 .Book {
 	width: 120px;
+	min-height: 160px;
+	background-color: gainsboro;
 	position: relative;
 	display: flex;
 	margin-right: 22.4px;
@@ -19,7 +21,7 @@
 	position: absolute;
 	height: 100%;
 	width: 100%;
-	background-color: rgba(255, 255, 255, 0.8);
+	background-color: rgba(255, 255, 255, 0.85);
 	top: 0;
 	padding: 0.5rem;
 	display: none;
