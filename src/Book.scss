@@ -10,7 +10,7 @@
 		bottom: 0;
 	}
 	&:hover .book-overlay {
-		display: flex;
+		opacity: 1;
 	}
 	&:last-child {
 		margin-right: 0;
@@ -24,11 +24,14 @@
 	background-color: rgba(255, 255, 255, 0.85);
 	top: 0;
 	padding: 0.5rem;
-	display: none;
+	display: flex;
+	opacity: 0;
+	transition: 0.3s;
 	align-content: center;
 	flex-wrap: wrap;
 	text-align: center;
 	text-decoration: none;
+	overflow-wrap: break-word;
 	color: var(--steel-blue);
 	border: 1px solid silver;
 	h4 {
