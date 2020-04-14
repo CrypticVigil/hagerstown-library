@@ -76,16 +76,16 @@ class Carousel extends Component {
 		let counter = 0;
 		for (let item of this.filtered) {
 			if (counter < 6) {
-				list[0].push(<Book cover={`./img/covers/${item.cover}`} title={item.title} author={item.author} key={counter} />)
+				list[0].push(<Book cover={`./img/covers/${item.cover}`} title={item.title} author={item.author} key={counter} id={item.id} />)
 				counter++;
 			} else if (counter >= 6 && counter < 12) {
-				list[1].push(<Book cover={`./img/covers/${item.cover}`} title={item.title} author={item.author} key={counter} />)
+				list[1].push(<Book cover={`./img/covers/${item.cover}`} title={item.title} author={item.author} key={counter} id={item.id} />)
 				counter++;
 			} else if (counter >= 12 && counter < 18) {
-				list[2].push(<Book cover={`./img/covers/${item.cover}`} title={item.title} author={item.author} key={counter} />)
+				list[2].push(<Book cover={`./img/covers/${item.cover}`} title={item.title} author={item.author} key={counter} id={item.id} />)
 				counter++;
 			} else if (counter >= 18 && counter < 24) {
-				list[3].push(<Book cover={`./img/covers/${item.cover}`} title={item.title} author={item.author} key={counter} />)
+				list[3].push(<Book cover={`./img/covers/${item.cover}`} title={item.title} author={item.author} key={counter} id={item.id} />)
 				counter++;
 			}
 		}

@@ -2,10 +2,8 @@ import initialState from './initialState';
 
 function rootReducer(state = initialState, action) {
 	switch (action.type) {
-		case 'ADD_TODO':
-			return state;
-		case 'REMOVE_TODO':
-			return state;
+		// case 'GET_BOOK':
+		// 	return state.books.find(book => book.id === action.id);
 		default:
 			return state;
 	}

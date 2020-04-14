@@ -9,6 +9,7 @@ import Home from './Home';
 import Catalog from './Catalog';
 import Events from './Events';
 import About from './About';
+import BookPage from './BookPage';
 import Footer from './Footer';
 import './App.scss';
 
@@ -27,7 +28,10 @@ function App() {
           <Route path="/about">
             <About />
           </Route>
-          <Route path="/">
+          <Route path="/book/:id">
+            <BookPage />
+          </Route>
+          <Route exact path="/">
             <Home />
           </Route>
         </Switch>

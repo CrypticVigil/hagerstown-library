@@ -30,5 +30,8 @@
 			color: var(--dark-steel);
 			border-bottom: 3px solid var(--gold);
 		}
+		&.active {
+			color: var(--dark-steel);
+		}
 	}
 }
