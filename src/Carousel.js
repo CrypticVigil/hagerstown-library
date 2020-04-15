@@ -76,16 +76,16 @@ class Carousel extends Component {
 		let counter = 0;
 		for (let item of this.filtered) {
 			if (counter < 6) {
-				list[0].push(<Book cover={`./img/covers/${item.cover}`} title={item.title} author={item.author} key={counter} id={item.id} />)
+				list[0].push(<Book cover={`/img/covers/${item.cover}`} title={item.title} author={item.author} key={counter} id={item.id} />)
 				counter++;
 			} else if (counter >= 6 && counter < 12) {
-				list[1].push(<Book cover={`./img/covers/${item.cover}`} title={item.title} author={item.author} key={counter} id={item.id} />)
+				list[1].push(<Book cover={`/img/covers/${item.cover}`} title={item.title} author={item.author} key={counter} id={item.id} />)
 				counter++;
 			} else if (counter >= 12 && counter < 18) {
-				list[2].push(<Book cover={`./img/covers/${item.cover}`} title={item.title} author={item.author} key={counter} id={item.id} />)
+				list[2].push(<Book cover={`/img/covers/${item.cover}`} title={item.title} author={item.author} key={counter} id={item.id} />)
 				counter++;
 			} else if (counter >= 18 && counter < 24) {
-				list[3].push(<Book cover={`./img/covers/${item.cover}`} title={item.title} author={item.author} key={counter} id={item.id} />)
+				list[3].push(<Book cover={`/img/covers/${item.cover}`} title={item.title} author={item.author} key={counter} id={item.id} />)
 				counter++;
 			}
 		}
@@ -105,7 +105,7 @@ class Carousel extends Component {
 				<h2>{this.props.lists[this.props.list].title}</h2>
 				<div className="carousel-container">
 					<div className="carousel__arrow carousel__arrow-left" onClick={this.prevSlide}>
-						<img src="./img/next-arrow.svg" alt="previous" />
+						<img src="/img/next-arrow.svg" alt="previous" />
 					</div>
 					<div className="carousel__books-area">
 						<div className={`carousel-${this.props.id} carousel__slide carousel__slide--active`} >{slidesArray[0]}</div>
@@ -114,7 +114,7 @@ class Carousel extends Component {
 						{this.checkSlide(slidesArray[3])}
 					</div>
 					<div className="carousel__arrow" onClick={this.nextSlide} >
-						<img src="./img/next-arrow.svg" alt="next" />
+						<img src="/img/next-arrow.svg" alt="next" />
 					</div>
 				</div>
 			</div>

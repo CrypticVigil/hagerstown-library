@@ -1,0 +1,45 @@
+.UpcomingEvents {
+	h2 {
+		margin: 1rem;
+		padding-bottom: 0.125rem;
+		color: var(--steel-blue);
+		border-bottom: 3px solid var(--gold);
+	}
+	margin-bottom: 1rem;
+}
+
+.upcoming-container {
+	width: calc(100% - 2rem);
+	margin: 0.5rem 1rem;
+	display: flex;
+	justify-content: space-between;
+}
+
+.home__events-card {
+	width: calc(50% - 0.5rem);
+	display: flex;
+	a {
+		flex-grow: 1;
+		text-decoration: none;
+		border:1px solid darken(#dee8ed, 10%);
+		border-right: 0;
+		padding: 0.75rem;
+		background-color: #dee8ed;
+		color: var(--dark-steel);
+		border-top-left-radius: 0.5rem;
+		border-bottom-left-radius: 0.5rem;
+	}
+	h3 {
+		margin: 0;
+	}
+	h4 {
+		font-weight: normal;
+		margin: 0.5rem 0;
+	}
+	img {
+		width: 160px;
+		border:1px solid darken(#dee8ed, 10%);
+		border-top-right-radius: 0.5rem;
+		border-bottom-right-radius: 0.5rem;
+	}
+}

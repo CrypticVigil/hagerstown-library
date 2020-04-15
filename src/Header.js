@@ -6,7 +6,7 @@ function Header() {
 	return (
 		<div className="Header">
 			<div className="header-container">
-				<Link to="/"><img className="header-logo" src="/img/library-logo.svg" alt="HPL Logo" /></Link>
+				<Link className="header-logo" to="/"><img src="/img/library-logo.svg" alt="HPL Logo" /></Link>
 
 				<div className="header-navbar" >
 					<Link to="/">Home</Link>

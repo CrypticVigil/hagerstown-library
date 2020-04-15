@@ -3,6 +3,7 @@ import { connect } from 'react-redux';
 import { Link } from 'react-router-dom';
 import Resources from './Resources';
 import Carousel from './Carousel';
+import UpcomingEvents from './UpcomingEvents';
 import './Home.scss';
 
 function Home(props) {
@@ -20,6 +21,7 @@ function Home(props) {
 				</div>
 				<Resources title="Featured Resources" resources={props.resources} />
 				<Carousel list="NewArrivals" id="01" />
+				<UpcomingEvents events={props.events} />
 			</div>
 		</div>
 	);

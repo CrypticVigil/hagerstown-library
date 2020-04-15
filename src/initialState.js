@@ -756,7 +756,50 @@ const initialState = {
 			img: "ComputerTraining.jpg"
 		},
 	],
-	events: [],
+	events: [
+		{
+			title: "Children's Story Time",
+			description: "Bring your children ages 4 to 10 for a story time followed by a fun craft.",
+			location: "Children's Room",
+			time: "April 25th @ 1:30pm",
+			img: "/img/annie-spratt-O1TNdLNvJLM-unsplash.jpg"
+		},
+		{
+			title: "Basic Computer Training Class",
+			description: "An educational class on basic computer skills using Microsoft Windows and Office software. Free to attend, no previous knowledge required.",
+			location: "Hedgewick Community Room",
+			time: "April 25th @ 6:00pm",
+			img: "/img/brooke-cagle-g1Kr4Ozfoac-unsplash.jpg"
+		},
+		{
+			title: "Washington County Writers Meetup",
+			description: "A meeting of local writers who meet up to share our writing and encourage each other to be the best wordsmiths we can be. Meetings are held on the last Thursday of each month.",
+			location: "Meeting Room 103",
+			time: "April 30th @ 7:00pm",
+			img: "/img/aaron-burden-y02jEX_B0O0-unsplash.jpg"
+		},
+		{
+			title: "Conversational Spanish Meetup",
+			description: "Want to practice your Spanish? Join us for a time of learning and conversation on the first Monday of each month.",
+			location: "Meeting Room 101",
+			time: "May 4th @ 6:45pm",
+			img: "/img/jon-tyson-8MMtYM_3xMY-unsplash.jpg"
+		},
+		{
+			title: "Knitting & Crochet Workshop",
+			description: "Curious about learning to knit or crochet? Sign up for our workshop and we'll walk you through the basics. The workshop is free but space is limited, so sign up today!",
+			location: "Meeting Room 107",
+			time: "May 7th @ 2:30pm",
+			img: "/img/les-triconautes-CwUYr2zGirk-unsplash.jpg"
+		},
+		{
+			title: "Board Game Night",
+			description: "A time to unplug and connect with your community. We have a large collection of board and card games, or feel free to bring your own.",
+			location: "Hedgewick Community Room",
+			time: "May 9th @ 7:30pm",
+			img: "/img/robert-coelho-laNNTAth9vs-unsplash.jpg"
+		},
+	],
 }
 
 export default initialState;

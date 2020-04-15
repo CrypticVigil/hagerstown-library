@@ -1,6 +1,7 @@
 import React from 'react';
 import { useParams } from 'react-router-dom';
 import { connect } from 'react-redux';
+import Carousel from './Carousel';
 import './BookPage.scss';
 
 function BookPage(props) {
@@ -10,9 +11,9 @@ function BookPage(props) {
 
 	let available = () => {
 		if (book.available) {
-			return <div><h4 className="available">{book.due}</h4><button>Place Hold</button></div>
+			return <div><h4 className="available">{book.due}</h4><button>Add To Book Bag</button></div>
 		} else {
-			return <h4>{book.due}</h4>
+			return <div><h4>{book.due}</h4><button>Place Hold</button></div>
 		}
 	}
 
@@ -35,6 +36,7 @@ function BookPage(props) {
 						{available()}
 					</div>
 				</div>
+				<Carousel list="NewArrivals" id="01" />
 			</div>
 		</div>
 	)
