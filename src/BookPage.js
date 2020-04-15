@@ -2,18 +2,38 @@ import React from 'react';
 import { useParams } from 'react-router-dom';
 import { connect } from 'react-redux';
 import Carousel from './Carousel';
+import BookBag from './BookBag';
 import './BookPage.scss';
 
 function BookPage(props) {
 	let id = useParams().id;
 	let book = props.books.find(item => item.id === id);
-	console.log(book);
+
+	let addToBag = () => {
+		props.dispatch({ type: "ADD_BOOK", bookID: book.id });
+	}
+
+	let removeFromBag = () => {
+		props.dispatch({ type: "REMOVE_BOOK", bookID: book.id });
+	}
+
+	let placeHold = () => {
+		props.dispatch({ type: "ADD_HOLD", bookID: book.id });
+	}
+
+	let removeHold = () => {
+		props.dispatch({ type: "REMOVE_HOLD", bookID: book.id });
+	}
 
 	let available = () => {
-		if (book.available) {
-			return <div><h4 className="available">{book.due}</h4><button>Add To Book Bag</button></div>
-		} else {
-			return <div><h4>{book.due}</h4><button>Place Hold</button></div>
+		if (book.status === 1) {
+			return <div><h4 className="available">{book.due}</h4><button onClick={addToBag}>Add To Book Bag</button></div>
+		} else if (book.status === 2) {
+			return <div><h4>{book.due}</h4><button onClick={placeHold}>Place Hold</button></div>
+		} else if (book.status === 3) {
+			return <div><h4 className="in-bookbag">IN BOOK BAG</h4><button onClick={removeFromBag}>Remove From Book Bag</button></div>
+		} else if (book.status === 4) {
+			return <div><h4 className="on-hold">ON HOLD</h4><button onClick={removeHold}>Remove Hold</button></div>
 		}
 	}
 
@@ -34,6 +54,7 @@ function BookPage(props) {
 					</div>
 					<div className="book-page__main-info__right">
 						{available()}
+						<BookBag />
 					</div>
 				</div>
 				<Carousel list="NewArrivals" id="01" />
@@ -44,7 +65,8 @@ function BookPage(props) {
 
 function mapStateToProps(store) {
 	return {
-		books: store.books
+		books: store.books,
+		bookBag: store.bookBag
 	};
 }
 

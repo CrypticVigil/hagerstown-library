@@ -6,10 +6,10 @@ function Book(props) {
 	return (
 		<Link className="Book" to={`/book/${props.id}`}>
 			<img src={props.cover} alt={props.title} />
-			<a href="/" className="book-overlay">
+			<div href="/" className="book-overlay">
 				<h4>{props.title}</h4>
 				<h5>{props.author}</h5>
-			</a>
+			</div>
 		</Link>
 	);
 }

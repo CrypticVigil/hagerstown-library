@@ -65,8 +65,22 @@
 		letter-spacing: 1px;
 		text-align: center;
 		&.available {
-			color: green;
-			border-bottom: 3px solid green;
+			color: mediumseagreen;
+			border-bottom: 3px solid mediumseagreen;
 		}
+		&.in-bookbag {
+			color: dodgerblue;
+			border-bottom: 3px solid dodgerblue;
+		}
+		&.on-hold {
+			color: coral;
+			border-bottom: 3px solid coral;
+		}
+	}
+
+	button {
+		width: 100%;
+		margin: 0.75rem 0;
+		height: 1.5rem;
 	}
 }

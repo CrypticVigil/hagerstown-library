@@ -11,7 +11,7 @@ function Home(props) {
 		<div className="Home">
 			<div className="home-container" >
 				<div className="home-jumbotron" >
-					<Link href="/" className="home-jumbotron__message">
+					<Link to="/events" className="home-jumbotron__message">
 						<h2>Summer Reading Program</h2>
 						<p>Starting in May, your child can earn fun rewards through our summer reading program. Find out more and sign up today!</p>
 						<img src="./img/arrow-right.svg" alt="" />

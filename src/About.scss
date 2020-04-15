@@ -3,4 +3,28 @@
 	justify-content: center;
 	background-color: #dee8ed;
 	flex-grow: 1;
+	h2 {
+		margin: 0 0 0.5rem 0;
+		padding-bottom: 0.125rem;
+		color: var(--steel-blue);
+		border-bottom: 3px solid var(--gold);
+	}
+	p {
+		margin: 0.5rem 0;
+	}
+}
+
+.about-container {
+	width: 960px;
+	background-color: white;
+	margin: 1rem 0;
+	border-radius: 0.5rem;
+	overflow: hidden;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.about__center-container {
+	width: 480px;
 }
