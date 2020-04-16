@@ -15,7 +15,8 @@ class Catalog extends Component {
 					<Carousel list="Classics" id="01" />
 					<Carousel list="FantasySci" id="02" />
 					<Carousel list="StaffPicks" id="03" />
-					<Carousel list="Classics" id="04" />
+					<Carousel list="YoungAdult" id="04" />
+					<Carousel list="NewArrivals" id="05" />
 				</div>
 			</div>
 		);

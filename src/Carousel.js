@@ -14,12 +14,13 @@ class Carousel extends Component {
 		this.prevSlide = this.prevSlide.bind(this);
 		this.moveToSlide = this.moveToSlide.bind(this);
 		this.createSlides = this.createSlides.bind(this);
+		this.shuffle = this.shuffle.bind(this);
 		// eslint-disable-next-line
-		this.filtered = this.props.books.filter(book => {
+		this.filtered = this.shuffle(this.props.books.filter(book => {
 			if (this.props.lists[this.props.list].books.includes(book.id)) {
 				return true;
 			}
-		});
+		}));
 	}
 
 	componentDidMount() {
@@ -64,6 +65,24 @@ class Carousel extends Component {
 		} else {
 			this.slides[slide + 1].className = `carousel-${this.props.id} carousel__slide carousel__slide--next`;
 		}
+	}
+
+	shuffle(array) {
+		var m = array.length, t, i;
+
+		// While there remain elements to shuffle…
+		while (m) {
+
+			// Pick a remaining element…
+			i = Math.floor(Math.random() * m--);
+
+			// And swap it with the current element.
+			t = array[m];
+			array[m] = array[i];
+			array[i] = t;
+		}
+
+		return array;
 	}
 
 	createSlides() {
