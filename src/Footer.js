@@ -21,7 +21,7 @@ function Footer() {
 					</ul>
 				</div>
 				<div className="footer-right">
-					<a href="https://twitter.com"><img src="/img/facebook-logo.svg" alt="facebook logo" /></a>
+					<a href="https://www.facebook.com"><img src="/img/facebook-logo.svg" alt="facebook logo" /></a>
 					<a href="https://twitter.com"><img src="/img/twitter-logo.svg" alt="twitter logo" /></a>
 					<a href="https://www.instagram.com/"><img src="/img/instagram-logo.svg" alt="instagram logo" /></a>
 					<a href="https://www.youtube.com/"><img src="/img/youtube-logo.svg" alt="youtube logo" /></a>
